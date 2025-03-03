@@ -1,0 +1,43 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Docker files
+*.log
+*.pid
+*.swp
+
+# Airflow database and log files
+airflow_home/logs/
+airflow_home/airflow.cfg
+airflow_home/dags/__pycache__/
+airflow_home/airflow.db
+
+# Docker and container files
+.dockerignore
+docker-compose.override.yml
+docker-compose.override.*
+*.docker
+
+# Database related files (PostgreSQL)
+pgdata/
+*.sql
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.swp

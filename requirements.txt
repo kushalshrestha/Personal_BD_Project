@@ -1,0 +1,3 @@
+apache-airflow==2.5.0
+psycopg2-binary==2.9.3  # PostgreSQL support
+pandas==1.3.3   
