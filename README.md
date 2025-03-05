@@ -22,3 +22,8 @@ docker exec -it airflow /bin/bash
 
 airflow users create --username admin --firstname <firstname> --lastname <lastname> --email <email> --role Admin --password admin
 ```
+
+## Steps:
+1. Signing up for an app token
+ - requests should include an app token that identifies your application
+https://dev.socrata.com/foundry/data.colorado.gov/4ykn-tg5h
